@@ -259,11 +259,24 @@ main#home h1 {
 
 .projects img {
   width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .projects img:hover {
   opacity: .5;
   transition: all .5s ease-out;
+}
+
+.projects .flex-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects .mr-3 {
+  margin-right: 9px;
 }
 
 .boxes {
